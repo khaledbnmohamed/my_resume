@@ -127,6 +127,7 @@
 
 \newcommand\emptySeparator{\multicolumn{2}{c}{}\\}
 
+\newcommand\emptySmallSeparator{\multicolumn{2}{c}{}\\}
 
 % Setup CV sections
 \titleformat{\section}{\Large\raggedright}{}{0em}{}[\titlerule]
@@ -176,6 +177,7 @@
 \newcommand{\viadeoSymbol}{\faViadeo}
 \newcommand{\mobileSymbol}{\faMobilePhone}
 \newcommand{\githubSymbol}{\faGithub}
+\newcommand{\paperSymbol}{\faNewspaper}
 
 \newcommand\link[2]{\color{linkcolor}\href{#1}{#2}\color{Black} }
 \newcommand\important[1]{\textbf #1}
