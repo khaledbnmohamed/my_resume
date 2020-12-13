@@ -62,7 +62,7 @@
 \RequirePackage{url,parskip} 	    % other packages for formatting
 \RequirePackage[usenames,dvipsnames]{xcolor}
 \RequirePackage{fullpage}
-\RequirePackage[margin=1.5cm]{geometry}
+\RequirePackage[margin=0.5cm]{geometry}
 \RequirePackage{fontawesome}
 \RequirePackage{hyperref}
 \RequirePackage{titlesec}
@@ -292,7 +292,7 @@
     }
     \user{\@firstname}{\@lastname}\\
     \resumetitle{\@tagline}
-    \smallskip\\
+%     \smallskip\\
     \small{\@socialinfo}
     \end{minipage}
     \ifdef{\@photodiameter}{
