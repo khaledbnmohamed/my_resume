@@ -1,7 +1,4 @@
-
-
-
-Awesome Source CV [![Example](https://img.shields.io/badge/Exemple-pdf-blue.svg)]![Final Output](https://github.com/khaledbnmohamed/My_Resume/blob/master/download.png)
+Awesome Source CV [![Example](https://img.shields.io/badge/Exemple-pdf-blue.svg)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf)
 =================
 
 ## About

@@ -131,7 +131,7 @@
 
 % Setup CV sections
 \titleformat{\section}{\Large\raggedright}{}{0em}{}[\titlerule]
-\titlespacing{\section}{0pt}{2pt}{2pt}
+\titlespacing{\section}{0pt}{0pt}{0pt}
 
 % Configure list
 \setlist[itemize,1]{label=\faAngleRight, nosep, leftmargin=2em} 
@@ -291,7 +291,7 @@
       \begin{minipage}{\dimexpr\linewidth-\@photodiameter-2em}
     }
     \user{\@firstname}{\@lastname}\\
-    \resumetitle{\@tagline}
+    \resumetitle{\@tagline}\\
 %     \smallskip\\
     \small{\@socialinfo}
     \end{minipage}
