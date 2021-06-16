@@ -328,7 +328,7 @@
 % Render a scholarshipentry in the scolarship environment
 % Usage: \scholarshipentry{<date>}{<description>}
 \newcommand\keywordsentry[2]{
-  \textbf{#1} &   #2\\ 
+  \textbf{#1} &   #2\\
 }
 
 % Define a new column type for the scholarship environment
@@ -392,7 +392,7 @@
 
 % Define the 'extra' environment
 \newenvironment{extras}{%
-  \begin{longtable}{R{\leftcolumn}|E}
+  \begin {longtable}{{\leftcolumn}|E}
 }{%
   \end{longtable}
 }
@@ -433,7 +433,7 @@
   \begin{minipage}[t]{\dimexpr(\linewidth/2) - 3em}
     #1
   \end{minipage}
-  \hfill
+  \hspace{2em}
   \begin{minipage}[t]{\dimexpr(\linewidth/2) - 3em}
     #2
   \end{minipage}
@@ -446,14 +446,16 @@
   \bigskip
 }
 
-\newcommand*\referee[5]{
+\newcommand*\referee[4]{
   \hspace{1em}
   \begin{minipage}[t]{\dimexpr(\linewidth/3) - 3em}
     \begin{tabular}{>{}l >{}l}
+    \smallskip\\
       \multicolumn{2}{l}{\textbf{#1}}\\
-      \multicolumn{2}{l}{\emph{#2}, \textsc{#3}}\\
-      \quad \mailSymbol & \href{mailto:#4}{#4} \\  
-      \quad \faPhone & #5 \\
+      \multicolumn{2}{l}{\emph{#2}}\\
+        \multicolumn{2}{l}{\emph{#3}}\\
+       \multicolumn{2}{l}{\textsc{#4}}\\
+
     \end{tabular}
   \end{minipage}%
 }
